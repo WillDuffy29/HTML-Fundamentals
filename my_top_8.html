@@ -1,0 +1,91 @@
+<!-- My Top 8 Friends Page -->
+<!-- First exercise using internal CSS inside a <style> tag in the <head> -->
+<!-- CSS is written here rather than inline to keep styling separate from structure -->
+<!-- 'display: inline-block' allows divs to sit side by side while respecting width and height -->
+<!-- '#top-8-wrapper' uses an ID selector because it is unique on the page -->
+<!-- '.friend-card' uses a class selector because it is reused across multiple elements -->
+<!-- 'margin: auto' on the body centres the page content horizontally -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 85%;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      img {
+        border: 3px solid blue;
+        height: 300px;
+        width: 300px;
+      }
+
+      #top-8-wrapper {
+        text-align: center;
+      }
+
+      .friend-card {
+        display: inline-block;
+        margin: 1px;
+        text-align: center;
+      }
+
+      .friend-name {
+        color: blue;
+      }
+    </style>
+    <title>Top 8!</title>
+  </head>
+  <body>
+    <div id="top-8-wrapper">
+      <h1>My Top Friends</h1>
+      <div class="top-8-row">
+        <div class="friend-card">
+          <h2 class="friend-name">Jake Hudson</h2>
+          <img src="https://media.istockphoto.com/id/2206642276/photo/studio-portrait-of-handsome-young-caucasian-male.jpg?s=2048x2048&w=is&k=20&c=kq1eNMPlIb_kfX5AUBogZHAQwcEofJwD3YrNZr59Ei0=" alt="My friend Jake">
+        </div>
+
+        <div class="friend-card">
+          <h2 class="friend-name">Jasmine Miall</h2>
+          <img src="https://media.istockphoto.com/id/2218333121/photo/focused-professional-woman-working-on-laptop-in-a-modern-office-booth.jpg?s=612x612&w=0&k=20&c=k5Uqynciq-X8MCF6KYoSZfW6e7lnJ1eQRSFRJDtqGuU=" alt="My girlfriend Jasmine">
+        </div>
+
+        <div class="friend-card">
+          <h2 class="friend-name">Lauren McCarthy</h2>
+          <img src="https://media.istockphoto.com/id/2223853446/photo/woman-standing-indoors-using-a-tablet-device-in-a-contemporary-office-space.jpg?s=612x612&w=0&k=20&c=EK2RztytyMc7_rHK7u2Z63SdncesjuKgeSem6d_BXKc=" alt="My friend Lauren">
+        </div>
+
+        <div class="friend-card">
+          <h2 class="friend-name">Grace O'Neil</h2>
+          <img src="https://media.istockphoto.com/id/2193991190/photo/smiling-asian-female-entrepreneur-working-on-touchpad-in-the-office.jpg?s=612x612&w=0&k=20&c=AMgtiXwG4WqZfF4fStHGOYvZZWcWdHr2rKwj9qGt-oM=" alt="My friend Grace">
+        </div>
+      </div>
+      
+      <div class="top-8-row">
+        <div class="friend-card">
+          <h2 class="friend-name">Hollie Harrison</h2>
+          <img src="https://media.istockphoto.com/id/2206546844/photo/young-woman-with-curly-hair-eating-a-slice-of-tangerine-with-closed-eyes.jpg?s=2048x2048&w=is&k=20&c=gqsvRedupXnd5XgvIaQLwRP5Y8p8cNW62BuWar6Aw6Q=" alt="My friend Hollie">
+        </div>
+        
+        <div class="friend-card">
+          <h2 class="friend-name">Gee Wooding</h2>
+          <img src="https://media.istockphoto.com/id/2239333565/photo/businesswoman-standing-in-modern-office-using-tablet.jpg?s=2048x2048&w=is&k=20&c=mdukaV3zfOYflOP6qXBcfTADZZCSFoNJr_FrisOQvqQ=" alt="My friend Gee">
+        </div>
+        
+        <div class="friend-card">
+          <h2 class="friend-name">Oscar Lam</h2>
+          <img src="https://media.istockphoto.com/id/2234494431/photo/hungry-man-eating-a-delicious-burger-in-a-restaurant.jpg?s=612x612&w=0&k=20&c=tL0TKub96KtiwHvNlRW__bSsEzTf0OVqrpSAnckvmE8=" alt="My friend Oscar">
+        </div>
+        
+        <div class="friend-card">
+          <h2 class="friend-name">Hannah Edwards</h2>
+          <img src="https://media.istockphoto.com/id/2198763720/photo/portrait-of-a-smiling-businesswoman-standing-in-the-corridor.jpg?s=2048x2048&w=is&k=20&c=7Xcxq57WksN9mxq-MfBl-OKJZJZ3fXe3qb5oWwQiJbQ=" alt="My friend Hannah">
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!-- Power Rangers - CSS Selectors Exercise -->
+<!-- Demonstrates the difference between class and ID selectors in CSS -->
+<!-- '.' prefix targets a CLASS - applied to multiple elements sharing the same style -->
+<!-- '#' prefix targets an ID - applied to a single unique element -->
+<!-- All five divs share the '.ranger-div' class for consistent width and height -->
+<!-- Each div has a unique ID to apply its individual background colour -->
+<!-- This exercise reinforced when to use classes vs IDs -->
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .ranger-div {
+        width: 50%;
+        height: 100px;
+      }
+      
+      #red-ranger {
+        background-color: red;
+      }
+
+      #blue-ranger {
+        background-color: blue;
+      }
+
+      #black-ranger {
+        background-color: black;
+      }
+
+      #yellow-ranger {
+        background-color: yellow;
+      }
+
+      #pink-ranger {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ranger-div" id="red-ranger"></div>
+    <div class="ranger-div" id="blue-ranger"></div>
+    <div class="ranger-div" id="black-ranger"></div>
+    <div class="ranger-div" id="yellow-ranger"></div>
+    <div class="ranger-div" id="pink-ranger"></div>
+  </body>
+</html>

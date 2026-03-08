@@ -1,0 +1,26 @@
+<!-- Sign Up Form: Version 2 -->
+<!-- Added form validation attributes to improve user experience and data integrity -->
+<!-- 'required' prevents the form from being submitted if a field is empty -->
+<!-- 'minlength' and 'maxlength' restrict how long the input can be -->
+<!-- These are examples of client-side validation - checking data before it reaches a server -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <form>
+    <h2>Sign Up</h2>
+    Username: <input type="text" minlength="4" maxlength="10" required>
+    <br><br>
+    Email: <input type="email" required>
+    <br><br>
+    Password: <input type="password" minlength="4" maxlength="10" required>
+    <br><br>
+    Confirm password: <input type="password" minlength="4" maxlength="10" required>
+    <br><br>
+    <input type="submit">
+    </form>
+  </body>
+</html>

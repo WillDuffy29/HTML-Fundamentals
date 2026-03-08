@@ -1,0 +1,33 @@
+<!-- Welp Review Form - Most Complex Form Exercise -->
+<!-- Combined all form elements learned so far into a single, realistic form -->
+<!-- type="number" with 'min' and 'max' restricts input to a number within a defined range -->
+<!-- 'maxlength' on the textarea limits the character count of a review -->
+<!-- Radio buttons grouped by 'name' ensure only one recommendation option can be selected -->
+<!-- 'value' on the submit button customises the button text -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welp Reviews</title>
+  </head>
+  <body>
+    <form>
+      <label>Your Name: <input type="text" placeholder="First & Last Name" required></label>
+      <br><br>
+      <label>What are you reviewing?: <input type="text" value="Film Name, Book Title, etc..." required></label>
+      <br>
+      <p>Would you recommend?:</p>
+      <label for="recommend-yes">Yes: <input type="radio" id="recommend-yes" name="recommend" value="yes"></label>
+      <label for="recommend-no">No: <input type="radio" id="recommend-no" name="recommend" value="no"></label>
+      <label for="recommend-maybe">Maybe: <input type="radio" id="recommend-maybe" name="recommend" value="maybe"></label>
+      <br><br>
+      <label>Your Rating in Stars: <input type="number" min="1" max="5" required></label>
+      <br><br>
+      <label for="comments">
+        <textarea id="comments" rows="7" cols="42" maxlength="250" placeholder="Write your comments here! (max. 250 characters)"></textarea>
+      </label>
+      <br><br>
+      <label><input type="submit" value="Submit Review"></label>
+    </form>
+  </body>
+</html>

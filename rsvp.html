@@ -1,0 +1,36 @@
+<!-- RSVP Form -->
+<!-- Introduced radio buttons and checkboxes -->
+<!-- type="radio" allows only one selection from a group - the 'name' attribute must match across the group -->
+<!-- type="checkbox" allows multiple selections independently -->
+<!-- lang="en" on the <html> tag declares the page language, which helps screen readers and search engines -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RSVP</title>
+  </head>
+  <body>
+    <form>
+    <h2>RSVP</h2>
+    <p>Come and make our special day more awesome!</p>
+    <br>
+    First Name: <input type="text">
+    <br><br>
+    Last Name: <input type="text">
+    <br><br>
+    Are you coming?<br>
+    Yes<input type="radio" name="invite">
+    No<input type="radio" name="invite">
+    Maybe<input type="radio" name="invite">
+    <br><br>
+    Any dietary restrictions for main course?<br>
+    Vegan<input type="checkbox">
+    Vegetarian<input type="checkbox">
+    Gluten Free<input type="checkbox">
+    Lactose Intolerant<input type="checkbox">
+    Tree Nut Allergy<input type="checkbox">
+    <br><br>
+    <input type="submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!-- Blog Page - Version 5 - Final Version -->
+<!-- Added introductory CSS styling inside a <style> tag in the <head> -->
+<!-- Used margin: 0 and padding: 0 to reset default browser spacing -->
+<!-- display: inline on <li> elements makes the navigation links sit horizontally -->
+<!-- Added IDs to sections to enable anchor links in the nav, allowing in-page navigation -->
+<!-- <hr> adds a horizontal rule to visually separate articles -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline;
+      }
+
+      hr {
+        width: 95%;
+        margin: auto;
+      }
+    </style>
+    <title>Let's Learn to Code!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Let's Learn to Code!</h1>
+      <br/>
+      <nav>
+        <ul>
+          <li><a href="about-section">About</a></li>
+          <li><a href="stories-section">Stories</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br/>
+      <h2>My HTML Learning</h2>
+      <br/>
+      <section id="about-section">
+        <h2>About</h2>
+        <br/>
+        <article>
+          <h3>My Journey</h3>
+          <br/>
+          <p>I am a final year student studying Photography (BA) at Manchester Metropolitan University. I've started my coding journey on Codédex, looking to land an apprenticeship role within the tech industry. I wish to combine my knowledge of design with these coding skills to become an adept software developer, building tools which actually make a difference.</p>
+        </article>
+      </section>
+      <section id="stories-section">
+        <br/>
+        <h2>Stories</h2>
+        <article>
+          <br/>
+          <h3>Python</h3>
+          <p>
+            Python was the first language which I sought to learn. It has an increasingly high demand with employers due to it's relationship to AI and automation, and hence, is a very valuable asset to acquire.
+            <br><br>
+            It also is <i>one of</i> the most beginner-friendly languages because of it's syntax similarities to the English language.
+            <br><br>
+            I proceeded through the course, learning the fundamentals of: variables, control flow, loops, lists, functions, classes & objects and modules. I utilised my knowledge of these concepts (and my own googling... lots of it) to create a data-persistent command line task manager!
+          </p>
+          <br/>
+          <figure>
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKs_IWvJ1MdQgp7xGlhntYGX8dUj0UiG5Xow&s"
+              width="100"
+              alt="Python Logo"
+            />
+            <figcaption>The Python Language Logo</figcaption>
+          </figure>
+        </article>
+        <br/><hr/><br/>
+        <article>
+          <h3>HTML</h3>
+          <br/>
+          <p>
+            HTML is a markup language which acts as the structure for <b>all</b> websites. It works in tandem with CSS and JavaScript to create beautiful webpages. Without HTML, CSS and JavaScript would not be able to execute their functions properly!
+            <br><br>
+            In itself, HTML isn't anything particularly exciting. It is, genuinely, the <i>bare-bones</i> of a website. In fact, this blog is written up in HTML!
+            <br><br>
+            I'm currently taking the HTML course on Codédex and this is part of an exercise. I'm being introduced to semantic elements such as articles and sections which makes the website more accessible for people with screen readers, for example. I'm excited to learn CSS and JavaScript to eventually add some beautiful, fun functionality to the page!
+          </p>
+          <br/>
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jScWCsWFlgTBNDca-ZSke2b4mJRLBI1I4g&s"
+              width="100"
+              alt="HTML Logo"
+            />
+            <figcaption>The HTML Logo</figcaption>
+          </figure>
+        </article>
+        <br/><hr/><br/>
+        <article>
+          <h3>CSS</h3>
+          <br/>
+          <p>
+            Like mentioned previously in the HTML article, CSS is a language for the web. It can change fonts, colours, spacings, etc. It takes HTML elements and manipulates them, making them <i>look nicer.</i>
+            <br><br>
+            I don't know too much about CSS, especially since I haven't began the course yet. What I do know, though, is that it is one of if not <i>the</i> most important languages for the web. I have already used some slight bits of CSS though, but how...?
+            <br><br>
+            I've implemented what is known as 'inline CSS'. This is CSS which lives directly in the HTML document rather than it's own seperate style sheet. Usually, this resides within the page 'head' so that the style can be referred to later in the document, however, it can also be directly linked to a single element if necessary.
+          </p>
+          <br/>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/960px-CSS3_logo_and_wordmark.svg.png"
+              width="100"
+              alt="CSS Logo"
+            />
+            <figcaption>The CSS Logo</figcaption>
+          </figure>
+        </article>
+        <br/><hr/><br/>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="Privacy-Policy">Privacy Policy</a></li>
+        <li><a href="Terms-of-Use">Terms of Use</a></li>
+        <li><a href="About-Me">About Me</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

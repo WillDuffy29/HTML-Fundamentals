@@ -1,0 +1,25 @@
+<!-- Contact Us Form -->
+<!-- Introduced the <textarea> element for multi-line text input -->
+<!-- 'rows' and 'cols' define the visible size of the textarea -->
+<!-- 'placeholder' provides hint text that disappears when the user starts typing -->
+<!-- <label> improves accessibility by associating descriptive text with an input -->
+<!-- 'for' on a label and 'id' on an input must match to link them correctly -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form>
+    <h2>Contact Us</h2>
+    <label>Name: <input type="text"></label>
+    <br><br>
+    <label for="suggests">Comments and suggestions: </label>
+    <br>
+    <textarea id="suggests" rows="7" cols="42" placeholder="Enter your comments or suggestions here!" required></textarea>
+    <br><br>
+    <input type="submit">
+    </form>
+  </body>
+</html>
