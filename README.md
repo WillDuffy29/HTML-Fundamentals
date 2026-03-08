@@ -62,5 +62,5 @@ concepts practiced, written as I worked through each exercise.
 - No dependencies or setup required
 
 ## Notes
-These exercises were completed as part of the Codédex HTML course as I begin to consider how my knowledgeof design from my Photography degree can be utilised for web development. 
+These exercises were completed as part of the Codédex HTML course as I begin to consider how my knowledge of design from my Photography degree can be utilised for web development. 
 Each file was written independently following course prompts, with comments added throughout to document my understanding of each concept.
